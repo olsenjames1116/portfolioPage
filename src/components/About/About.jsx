@@ -1,4 +1,4 @@
-import { profileImage } from "../../assets/images";
+import { profileImage, skillsImages } from "../../assets/images";
 
 const About = () => {
     return (
@@ -16,9 +16,16 @@ const About = () => {
             development, to the right company.
           </p>
         </div>
-        <div>
-
-        </div>
+        <ul>
+          {skillsImages.map((skill) => {
+            return (
+              <li key={skill.name}>
+                <img style={{height: "50px", width: "auto"}} src={skill.src} alt="" />
+                <span>{skill.name}</span>
+              </li>
+            )
+          })}
+        </ul>
       </section>
     );
 }
