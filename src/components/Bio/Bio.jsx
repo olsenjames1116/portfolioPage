@@ -3,7 +3,6 @@ import { profileImage } from "../../assets/images";
 const Bio = () => {
     return (
       <div>
-        <h2>About</h2>
         <img style={{ height: '200px', width: 'auto' }} src={profileImage} />
         <p>
           Hello, I&#39;m James. I am a self-taught, motivated developer with a
