@@ -1,12 +1,12 @@
 import About from "../About/About";
-import Projects from "../Projects/Projects";
+import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
 
 const Main = () => {
  return (
     <main>
       <About />
-      <Projects />
+      <Portfolio />
       <Contact />
     </main>
  )

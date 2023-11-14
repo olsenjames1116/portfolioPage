@@ -4,8 +4,8 @@ const Projects = () => {
     const projects = [{name: "FlickChat", src: flickChatImage}, {name: "Task Manager", src: taskManagerImage}, {name: "Jim Class", src: jimClassImage}, {name: "CV Builder", src: cvBuilderImage}]
 
     return (
-        <section id="projects">
-            <h2>Projects</h2>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
             <ul>
                 {projects.map((project, index) => {
                     return (
