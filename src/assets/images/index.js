@@ -17,12 +17,13 @@ import reduxImage from "./redux.svg";
 import styledComponentsImage from "./styledComponents.png";
 import viteImage from "./vite.svg";
 import webpackImage from "./webpack.svg";
+import cvBuilderImage from "./cvBuilder.png";
+import flickChatImage from "./flickChat.png";
+import jimClassImage from "./jimClass.png";
+import taskManagerImage from "./taskManager.png";
 
-const skillsImages = [{name: "JavaScript", src: javascriptImage}, {name: "HTML", src: htmlImage}, 
-    {name: "CSS", src: cssImage}, {name: "Git", src: gitImage},  {name: "React", src: reactImage}, 
-    {name: "Vite", src: viteImage}, {name: "Redux", src: reduxImage}, {name: "styled-components", src: styledComponentsImage}, 
-    {name: "Jest", src: jestImage}, {name: "NodeJS", src: nodejsImage}, {name: "Webpack", src: webpackImage}, 
-    {name: "npm", src: npmImage}, {name: "ESLint", src: eslintImage}, {name: "Prettier", src: prettierImage}, 
-    {name: "Firebase", src: firebaseImage}, {name: "GitHub", src: githubImage}, {name: "Linux", src: linuxImage}]
-
-export { heroImage, profileImage, skillsImages };
+export { heroImage, profileImage, cssImage, eslintImage, firebaseImage, gitImage, 
+    githubImage, htmlImage, javascriptImage, jestImage, linuxImage, nodejsImage, 
+    npmImage, prettierImage, reactImage, reduxImage, styledComponentsImage, 
+    viteImage, webpackImage, cvBuilderImage, flickChatImage, jimClassImage, 
+    taskManagerImage };
