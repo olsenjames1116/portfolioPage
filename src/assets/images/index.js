@@ -1,3 +1,4 @@
 import heroImage from "./hero.jpg";
+import profileImage from "./profile.jpg";
 
-export default heroImage;
+export { heroImage, profileImage };

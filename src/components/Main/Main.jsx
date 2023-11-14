@@ -4,7 +4,7 @@ import Contact from "../Contact/Contact";
 
 const Main = () => {
  return (
-    <main>Main
+    <main>
       <About />
       <Projects />
       <Contact />
