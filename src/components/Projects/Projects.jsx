@@ -6,6 +6,7 @@ import {
   jimClassImage,
   cvBuilderImage,
 } from '../../assets/images';
+import Button from '../Button/Button';
 
 const Projects = () => {
   const { skills } = useContext(SkillsContext);
@@ -86,16 +87,13 @@ const Projects = () => {
               alt=""
             />
             <div>
-              <button
+              <Button
                 type="button"
-                onClick={() => directToLink(project.livePreview)}
+                handleClick={() => directToLink(project.livePreview)}
               >
                 Live Preview
-              </button>
-              <button
-                type="button"
-                onClick={() => directToLink(project.sourceCode)}
-              >
+              </Button>
+              <button type="button" onClick={directToLink(project.sourceCode)}>
                 Source Code
               </button>
             </div>
