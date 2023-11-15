@@ -6,6 +6,7 @@ import {
   jimClassImage,
   cvBuilderImage,
 } from '../../assets/images';
+import Container from '../Container/Container';
 import Button from '../Button/Button';
 
 const Projects = () => {
@@ -86,7 +87,7 @@ const Projects = () => {
               src={project.src}
               alt=""
             />
-            <div>
+            <Container className="buttonContainer">
               <Button
                 type="button"
                 handleClick={() => directToLink(project.livePreview)}
@@ -99,7 +100,7 @@ const Projects = () => {
               >
                 Source Code
               </Button>
-            </div>
+            </Container>
           </li>
         );
       })}
