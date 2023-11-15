@@ -1,3 +1,5 @@
+// import { useContext } from 'react';
+// import { SkillsContext } from '../../contexts/SkillsContext';
 import {
   flickChatImage,
   taskManagerImage,
@@ -6,9 +8,12 @@ import {
 } from '../../assets/images';
 
 const Projects = () => {
+  // const { skills } = useContext(SkillsContext);
+
   const projects = [
     {
       name: 'FlickChat',
+      technologies: ['React', 'Redux', 'Firebase', ''],
       summary:
         "A movie blogging app that allows users to comment and interact with comments on some of today's top movies. Read what other people are saying about movies or leave some thoughts of your own. Each comment can be liked or disliked to show the approval of that comment. Each movie page also provides some basic information to keep you up to date on what everyone is watching!",
       src: flickChatImage,
@@ -41,6 +46,7 @@ const Projects = () => {
           return (
             <li key={index}>
               <h3>{project.name}</h3>
+              <div></div>
               <p>{project.summary}</p>
               <img
                 style={{ width: '50vw', height: 'auto' }}

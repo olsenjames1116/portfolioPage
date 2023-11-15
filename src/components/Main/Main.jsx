@@ -16,6 +16,7 @@ import {
   firebaseImage,
   githubImage,
   linuxImage,
+  routerImage,
 } from '../../assets/images';
 import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
@@ -30,6 +31,7 @@ const Main = () => {
     { name: 'Git', src: gitImage },
     { name: 'React', src: reactImage },
     { name: 'Vite', src: viteImage },
+    { name: 'Router', src: routerImage },
     { name: 'Redux', src: reduxImage },
     { name: 'styled-components', src: styledComponentsImage },
     { name: 'Jest', src: jestImage },

@@ -14,6 +14,7 @@ import npmImage from './npm.svg';
 import prettierImage from './prettier.svg';
 import reactImage from './react.svg';
 import reduxImage from './redux.svg';
+import routerImage from './router.svg';
 import styledComponentsImage from './styledComponents.png';
 import viteImage from './vite.svg';
 import webpackImage from './webpack.svg';
@@ -39,6 +40,7 @@ export {
   prettierImage,
   reactImage,
   reduxImage,
+  routerImage,
   styledComponentsImage,
   viteImage,
   webpackImage,
