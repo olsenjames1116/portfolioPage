@@ -93,9 +93,12 @@ const Projects = () => {
               >
                 Live Preview
               </Button>
-              <button type="button" onClick={directToLink(project.sourceCode)}>
+              <Button
+                type="button"
+                handleClick={() => directToLink(project.sourceCode)}
+              >
                 Source Code
-              </button>
+              </Button>
             </div>
           </li>
         );
