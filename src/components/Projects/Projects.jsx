@@ -7,7 +7,7 @@ import {
   cvBuilderImage,
 } from '../../assets/images';
 import Container from '../Container/Container';
-import Button from '../Button/Button';
+import ButtonContainer from '../ButtonContainer/ButtonContainer';
 
 const Projects = () => {
   const { skills } = useContext(SkillsContext);
@@ -79,27 +79,21 @@ const Projects = () => {
       {projects.map((project, index) => {
         return (
           <li key={index}>
-            <h3>{project.name}</h3>
-            <ul>{displayFilteredSkills(project)}</ul>
-            <p>{project.summary}</p>
-            <img
-              style={{ width: '50vw', height: 'auto' }}
-              src={project.src}
-              alt=""
-            />
-            <Container className="buttonContainer">
-              <Button
-                type="button"
-                handleClick={() => directToLink(project.livePreview)}
-              >
-                Live Preview
-              </Button>
-              <Button
-                type="button"
-                handleClick={() => directToLink(project.sourceCode)}
-              >
-                Source Code
-              </Button>
+            <Container className="infoContainer">
+              <h3>{project.name}</h3>
+              <ul>{displayFilteredSkills(project)}</ul>
+              <p>{project.summary}</p>
+              <ButtonContainer
+                handleLivePreviewClick={() => directToLink(project.livePreview)}
+                handleSourceCodeClick={() => directToLink(project.sourceCode)}
+              />
+            </Container>
+            <Container className="imageContainer">
+              <img
+                style={{ width: '50vw', height: 'auto' }}
+                src={project.src}
+                alt=""
+              />
             </Container>
           </li>
         );
