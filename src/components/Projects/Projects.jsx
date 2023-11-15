@@ -8,6 +8,7 @@ import {
 } from '../../assets/images';
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
+import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 const Projects = () => {
   const { skills } = useContext(SkillsContext);
@@ -80,9 +81,11 @@ const Projects = () => {
         return (
           <li key={index}>
             <Container className="infoContainer">
-              <h3>{project.name}</h3>
-              <ul>{displayFilteredSkills(project)}</ul>
-              <p>{project.summary}</p>
+              <ProjectInfo
+                name={project.name}
+                displayFilteredSkills={displayFilteredSkills(project)}
+                summary={project.summary}
+              />
               <ButtonContainer
                 handleLivePreviewClick={() => directToLink(project.livePreview)}
                 handleSourceCodeClick={() => directToLink(project.sourceCode)}
