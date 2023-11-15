@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import SkillsContext from '../../contexts/SkillsContext';
+import Image from '../Image/Image';
 
 const Skills = () => {
   const { skills } = useContext(SkillsContext);
@@ -9,11 +10,7 @@ const Skills = () => {
       {skills.map((skill, index) => {
         return (
           <li key={index}>
-            <img
-              style={{ height: '50px', width: 'auto' }}
-              src={skill.src}
-              alt=""
-            />
+            <Image src={skill.src} />
             <span>{skill.name}</span>
           </li>
         );

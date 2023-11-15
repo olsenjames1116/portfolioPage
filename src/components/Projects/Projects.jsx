@@ -93,10 +93,9 @@ const Projects = () => {
               />
             </Container>
             <Container className="imageContainer">
-              <img
+              <Image
                 style={{ width: '50vw', height: 'auto' }}
                 src={project.src}
-                alt=""
               />
             </Container>
           </li>

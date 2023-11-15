@@ -1,9 +1,10 @@
 import { profileImage } from '../../assets/images';
+import Image from '../Image/Image';
 
 const Bio = () => {
   return (
     <div>
-      <img style={{ height: '200px', width: 'auto' }} src={profileImage} />
+      <Image style={{ height: '200px', width: 'auto' }} src={profileImage} />
       <p>
         Hello, I&#39;m James. I am a self-taught, motivated developer with a
         year of experience building web applications. With a background in
