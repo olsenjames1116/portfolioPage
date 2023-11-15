@@ -9,6 +9,7 @@ import {
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
+import Image from '../Image/Image';
 
 const Projects = () => {
   const { skills } = useContext(SkillsContext);
@@ -66,7 +67,7 @@ const Projects = () => {
 
     return filteredSkills.map((skill, index) => (
       <li key={index}>
-        <img style={{ height: '50px', width: 'auto' }} src={skill.src} />
+        <Image src={skill.src} />
       </li>
     ));
   };
