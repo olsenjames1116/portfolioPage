@@ -22,6 +22,8 @@ import cvBuilderImage from './cvBuilder.png';
 import flickChatImage from './flickChat.png';
 import jimClassImage from './jimClass.png';
 import taskManagerImage from './taskManager.png';
+import linkedInImage from './linkedin.svg';
+import emailImage from './email.png';
 
 export {
   heroImage,
@@ -48,4 +50,6 @@ export {
   flickChatImage,
   jimClassImage,
   taskManagerImage,
+  linkedInImage,
+  emailImage,
 };
