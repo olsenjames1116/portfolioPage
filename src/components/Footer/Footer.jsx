@@ -1,7 +1,13 @@
+import AuthorCredit from '../AuthorCredit/AuthorCredit';
+import AssetCredit from '../AssetCredit/AssetCredit';
+
 const Footer = () => {
-    return (
-        <section>Footer</section>
-    )
-}
+  return (
+    <footer>
+      <AuthorCredit />
+      <AssetCredit />
+    </footer>
+  );
+};
 
 export default Footer;
