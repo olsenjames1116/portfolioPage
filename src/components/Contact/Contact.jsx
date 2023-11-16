@@ -13,7 +13,10 @@ const Contact = () => {
       <Link href="https://github.com/olsenjames1116" target="_blank">
         <Image src={githubImage} />
       </Link>
-      <Link href="" target="_blank">
+      <Link
+        href="https://www.linkedin.com/in/james-olsen-b14898126/"
+        target="_blank"
+      >
         <Image src={linkedInImage} />
       </Link>
     </section>
