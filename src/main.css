@@ -1,0 +1,17 @@
+* {
+  border: 1px solid black;
+}
+
+:root {
+  --primaryColor: #363940;
+  --secondaryColor: #aea668;
+  --textColor: #e9ecdb;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  background-color: var(--primaryColor);
+}

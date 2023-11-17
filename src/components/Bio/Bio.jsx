@@ -1,9 +1,10 @@
 import { profileImage } from '../../assets/images';
+import Container from '../Container/Container';
 import Image from '../Image/Image';
 
 const Bio = () => {
   return (
-    <div>
+    <Container className="bio">
       <Image style={{ height: '200px', width: 'auto' }} src={profileImage} />
       <p>
         Hello, I&#39;m James. I am a self-taught, motivated developer with a
@@ -14,7 +15,7 @@ const Bio = () => {
         my skills and experience, along with my passion for web development, to
         the right company.
       </p>
-    </div>
+    </Container>
   );
 };
 
