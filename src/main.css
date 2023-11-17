@@ -5,7 +5,25 @@
 :root {
   --primaryColor: #363940;
   --secondaryColor: #aea668;
-  --textColor: #e9ecdb;
+  --tertiaryColor: #e9ecdb;
+}
+
+@font-face {
+  font-family: 'norseKawl';
+  src:
+    url('./assets/fonts/norse-kawl-webfont.woff2') format('woff2'),
+    url('./assets/fonts/norse-kawl-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'norseBold';
+  src:
+    url('./assets/fonts/norsebold-2kge-webfont.woff2') format('woff2'),
+    url('./assets/fonts/norsebold-2kge-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {

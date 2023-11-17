@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  flex-grow: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--tertiaryColor);
+}
+
+nav > a {
+  text-decoration: none;
+  font-family: 'norseKawl', sans-serif;
+  /* font-weight: bolder; */
+  padding: 5px;
+  font-size: 1.5rem;
+  height: 100%;
+  color: var(--primaryColor);
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  transition-property: background-color;
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+
+  &:focus,
+  &:hover {
+    background-color: var(--secondaryColor);
+    color: var(--tertiaryColor);
+    font-weight: bold;
+  }
+}
