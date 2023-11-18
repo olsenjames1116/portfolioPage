@@ -1,11 +1,12 @@
 import { profileImage } from '../../assets/images';
 import Container from '../Container/Container';
 import Image from '../Image/Image';
+import './Bio.css';
 
 const Bio = () => {
   return (
     <Container className="bio">
-      <Image style={{ height: '200px', width: 'auto' }} src={profileImage} />
+      <Image src={profileImage} />
       <p>
         Hello, I&#39;m James. I am a self-taught, motivated developer with a
         year of experience building web applications. With a background in

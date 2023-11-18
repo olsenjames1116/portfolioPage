@@ -1,0 +1,18 @@
+div.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+div.bio > img {
+  height: auto;
+  width: 200px;
+  border-radius: 10px;
+}
+
+div.bio > p {
+  margin: 0;
+  padding: 10px;
+  font-family: sans-serif;
+}

@@ -2,4 +2,10 @@
   background-color: var(--primaryColor);
   color: var(--tertiaryColor);
   scroll-margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px black;
 }
