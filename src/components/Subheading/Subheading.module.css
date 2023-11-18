@@ -11,6 +11,10 @@
   font-size: 3rem;
 }
 
+.active {
+  color: red;
+}
+
 .subheading > hr {
   border-bottom: 3px solid var(--tertiaryColor);
   align-self: center;
