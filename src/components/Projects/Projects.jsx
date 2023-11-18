@@ -10,6 +10,7 @@ import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
 import Image from '../Image/Image';
+import styles from './Projects.module.css';
 
 const Projects = () => {
   const { skills } = useContext(SkillsContext);
@@ -77,11 +78,11 @@ const Projects = () => {
   };
 
   return (
-    <ul>
+    <ul className={styles.projects}>
       {projects.map((project, index) => {
         return (
           <li key={index}>
-            <Container className="infoContainer">
+            <Container className={styles.infoContainer}>
               <ProjectInfo
                 name={project.name}
                 displayFilteredSkills={displayFilteredSkills(project)}
@@ -92,7 +93,7 @@ const Projects = () => {
                 handleSourceCodeClick={() => directToLink(project.sourceCode)}
               />
             </Container>
-            <Container className="imageContainer">
+            <Container className={styles.imageContainer}>
               <Image
                 style={{ width: '50vw', height: 'auto' }}
                 src={project.src}

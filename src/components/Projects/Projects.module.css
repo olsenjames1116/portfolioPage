@@ -1,0 +1,22 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.projects > li:nth-child(odd) {
+  display: flex;
+}
+
+.projects > li:nth-child(even) {
+  display: grid;
+
+  & > .infoContainer {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  & > .imageContainer {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+}
