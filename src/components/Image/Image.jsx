@@ -6,7 +6,6 @@ const Image = ({ src, alt, style }) => {
 
 Image.defaultProps = {
   alt: '',
-  style: { height: '50px', width: '50px' },
 };
 
 Image.propTypes = {

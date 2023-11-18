@@ -24,6 +24,7 @@ import jimClassImage from './jimClass.png';
 import taskManagerImage from './taskManager.png';
 import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
+import powerImage from './power.png';
 
 export {
   heroImage,
@@ -52,4 +53,5 @@ export {
   taskManagerImage,
   linkedInImage,
   emailImage,
+  powerImage,
 };

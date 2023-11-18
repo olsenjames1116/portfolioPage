@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+}
+
+.hero > img {
+  width: 100%;
+  height: auto;
+}
+
+.heroText {
+  color: var(--tertiaryColor);
+  font-family: 'norseBold', sans-serif;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.heroText > h1 {
+  margin: 0;
+}
+
+.name {
+  font-size: 2rem;
+  padding: 5px;
+  border: 5px solid white;
+  border-radius: 2px;
+  filter: brightness(1);
+  transition-property: filter box-shadow;
+  transition-duration: 1s;
+  animation-name: turnOn, slideInFromTop;
+  animation-duration: 5s, 4s;
+  animation-iteration-count: 1, 1;
+
+  &:hover {
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    box-shadow: none;
+  }
+}
+
+.namePowerOn {
+  box-shadow: white 0 0 10px 5px;
+}
+
+.namePowerOff {
+  filter: brightness(0);
+}
+
+.heroText > img:active {
+  transform: scale(0.9);
+}
+
+.powerOn {
+  transition-property: filter;
+  transition-duration: 1s;
+  filter: invert(1);
+}
+
+.powerOff {
+  transition-property: filter;
+  transition-duration: 1s;
+  filter: invert(0);
+}
+
+.jobTitle {
+  animation-name: slideInFromBottom;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translate(0, -300%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translate(0, 300%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
