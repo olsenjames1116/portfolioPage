@@ -35,5 +35,8 @@ body {
 }
 
 #root {
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

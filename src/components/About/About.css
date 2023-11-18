@@ -1,0 +1,23 @@
+section#about {
+  background-color: var(--primaryColor);
+  color: var(--tertiaryColor);
+}
+
+.subheading {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.subheading > h2 {
+  margin: 0;
+  padding: 10px;
+  font-family: 'norseBold', sans-serif;
+  font-size: 3rem;
+}
+
+hr {
+  border-bottom: 3px solid var(--tertiaryColor);
+  align-self: center;
+  flex-grow: 1;
+}
