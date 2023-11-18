@@ -1,0 +1,23 @@
+.skills {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.skills > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiaryColor);
+  text-align: center;
+}
+
+.skills > li > img {
+  width: 50px;
+  height: 50px;
+}

@@ -1,12 +1,13 @@
 import { useContext } from 'react';
 import SkillsContext from '../../contexts/SkillsContext';
 import Image from '../Image/Image';
+import styles from './Skills.module.css';
 
 const Skills = () => {
   const { skills } = useContext(SkillsContext);
 
   return (
-    <ul>
+    <ul className={styles.skills}>
       {skills.map((skill, index) => {
         return (
           <li key={index}>
