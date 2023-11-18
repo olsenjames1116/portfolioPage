@@ -1,11 +1,13 @@
+import Section from '../Section/Section';
+import Subheading from '../Subheading/Subheading';
 import Projects from '../Projects/Projects';
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
-      <h2>Portfolio</h2>
+    <Section id="portfolio">
+      <Subheading headingText="Portfolio" />
       <Projects />
-    </section>
+    </Section>
   );
 };
 
