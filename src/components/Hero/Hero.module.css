@@ -1,10 +1,13 @@
 .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero > img {
-  width: 100%;
-  height: auto;
+.hero > img:first-child {
+  width: auto;
+  height: 100vh;
 }
 
 .heroText {
@@ -27,7 +30,7 @@
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 5px;
   border: 5px solid white;
   border-radius: 2px;
@@ -78,6 +81,17 @@
   opacity: 0;
 }
 
+.hero > img:last-child {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  bottom: 50px;
+  filter: invert(1);
+  animation-name: slideDown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 @keyframes slideInFromTop {
   from {
     opacity: 0;
@@ -97,5 +111,14 @@
   to {
     opacity: 1;
     transform: translate(0, 0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0, 10px);
   }
 }

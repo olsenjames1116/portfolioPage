@@ -25,6 +25,7 @@ import taskManagerImage from './taskManager.png';
 import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
 import powerImage from './power.png';
+import arrowDownImage from './arrowDown.png';
 
 export {
   heroImage,
@@ -54,4 +55,5 @@ export {
   linkedInImage,
   emailImage,
   powerImage,
+  arrowDownImage,
 };

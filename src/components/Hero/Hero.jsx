@@ -1,4 +1,4 @@
-import { heroImage, powerImage } from '../../assets/images';
+import { heroImage, powerImage, arrowDownImage } from '../../assets/images';
 import Image from '../Image/Image';
 import Container from '../Container/Container';
 import styles from './Hero.module.css';
@@ -31,6 +31,7 @@ const Hero = () => {
         />
         <h1 className={styles.jobTitle}>Full Stack Web Developer</h1>
       </Container>
+      <Image src={arrowDownImage} />
     </section>
   );
 };
