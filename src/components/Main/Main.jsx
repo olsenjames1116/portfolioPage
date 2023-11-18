@@ -22,6 +22,7 @@ import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
+import styles from './Main.module.css';
 
 const Main = () => {
   const skills = [
@@ -46,7 +47,7 @@ const Main = () => {
   ];
 
   return (
-    <main>
+    <main className={styles.main}>
       <SkillsContext.Provider value={{ skills }}>
         <About />
         <Portfolio />
