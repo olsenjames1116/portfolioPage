@@ -1,0 +1,5 @@
+.mainSection {
+  background-color: var(--primaryColor);
+  color: var(--tertiaryColor);
+  scroll-margin-top: 35px;
+}
