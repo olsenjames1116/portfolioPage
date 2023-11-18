@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import styles from './MainSection.module.css';
+import styles from './Section.module.css';
 
-const MainSection = ({ id, children }) => {
+const Section = ({ id, children }) => {
   return (
     <section className={styles.mainSection} id={id}>
       {children}
@@ -9,9 +9,9 @@ const MainSection = ({ id, children }) => {
   );
 };
 
-MainSection.propTypes = {
+Section.propTypes = {
   id: PropTypes.string,
   children: PropTypes.node,
 };
 
-export default MainSection;
+export default Section;

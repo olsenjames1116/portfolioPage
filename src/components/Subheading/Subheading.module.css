@@ -9,10 +9,13 @@
   padding: 10px;
   font-family: 'norseBold', sans-serif;
   font-size: 3rem;
+  filter: blur(3px);
 }
 
-.active {
-  color: red;
+h2.active {
+  animation-name: revealHeading;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .subheading > hr {
@@ -24,4 +27,13 @@
 .subheading > a {
   position: absolute;
   top: -50px;
+}
+
+@keyframes revealHeading {
+  from {
+    filter: blur(3px);
+  }
+  to {
+    filter: blur(0);
+  }
 }
