@@ -1,12 +1,18 @@
+import Section from '../Section/Section';
+import Subheading from '../Subheading/Subheading';
+import Container from '../Container/Container';
 import ContactLinks from '../ContactLinks/ContactLinks';
+import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
-    <section id="contact">
-      <h2>Contact</h2>
-      <span>olsenjames1116@gmail.com</span>
-      <ContactLinks />
-    </section>
+    <Section id="contact">
+      <Subheading headingText="Contact" />
+      <Container className={styles.contactInfo}>
+        <span>olsenjames1116@gmail.com</span>
+        <ContactLinks />
+      </Container>
+    </Section>
   );
 };
 

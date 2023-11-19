@@ -1,0 +1,10 @@
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  & > span {
+    font-size: 2rem;
+  }
+}

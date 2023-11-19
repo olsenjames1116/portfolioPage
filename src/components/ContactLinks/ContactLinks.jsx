@@ -1,6 +1,7 @@
 import { emailImage, githubImage, linkedInImage } from '../../assets/images';
 import Image from '../Image/Image';
 import Link from '../Link/Link';
+import styles from './ContactLinks.module.css';
 
 const ContactLinks = () => {
   const links = [
@@ -22,7 +23,7 @@ const ContactLinks = () => {
   ];
 
   return (
-    <ul>
+    <ul className={styles.contactLinks}>
       {links.map((link, index) => (
         <li key={index}>
           <Link href={link.href} target={link.openInNewTab ? '_blank' : null}>
