@@ -1,9 +1,10 @@
 import Container from '../Container/Container';
 import PropTypes from 'prop-types';
+import styles from './ProjectInfo.module.css';
 
 const ProjectInfo = ({ name, displayFilteredSkills, summary }) => {
   return (
-    <Container className="projectInfo">
+    <Container className={styles.projectInfo}>
       <h3>{name}</h3>
       <ul>{displayFilteredSkills}</ul>
       <p>{summary}</p>
