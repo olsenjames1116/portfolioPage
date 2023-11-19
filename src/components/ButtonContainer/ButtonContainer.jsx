@@ -1,10 +1,11 @@
 import Container from '../Container/Container';
 import Button from '../Button/Button';
 import PropTypes from 'prop-types';
+import styles from './ButtonContainer.module.css';
 
 const ButtonContainer = ({ handleLivePreviewClick, handleSourceCodeClick }) => {
   return (
-    <Container className="buttonContainer">
+    <Container className={styles.buttonContainer}>
       <Button type="button" handleClick={handleLivePreviewClick}>
         Live Preview
       </Button>

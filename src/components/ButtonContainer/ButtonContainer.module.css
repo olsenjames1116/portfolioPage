@@ -1,0 +1,22 @@
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+
+  & > button {
+    font-family: 'norseKawl', sans-serif;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 2px;
+    height: 30px;
+    background-color: var(--secondaryColor);
+    transition-property: transform;
+    transition-duration: 500ms;
+
+    &:hover,
+    &:focus {
+      background-color: var(--tertiaryColor);
+      transform: scale(1.1);
+      box-shadow: 0 0 5px 5px black;
+    }
+  }
+}
