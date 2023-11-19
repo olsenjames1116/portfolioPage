@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
   margin: 0;
   padding-left: 10px;
   padding-right: 10px;
@@ -10,10 +10,17 @@
 
 .projects > li:nth-child(odd) {
   display: flex;
+  gap: 10px;
+
+  & > div {
+    flex: 1;
+  }
 }
 
 .projects > li:nth-child(even) {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 
   & > .infoContainer {
     grid-area: 1 / 2 / 2 / 3;
@@ -21,5 +28,15 @@
 
   & > .imageContainer {
     grid-area: 1 / 1 / 2 / 2;
+  }
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+
+  & > img {
+    width: 100%;
+    height: auto;
   }
 }

@@ -94,10 +94,7 @@ const Projects = () => {
               />
             </Container>
             <Container className={styles.imageContainer}>
-              <Image
-                style={{ width: '50vw', height: 'auto' }}
-                src={project.src}
-              />
+              <Image src={project.src} />
             </Container>
           </li>
         );
