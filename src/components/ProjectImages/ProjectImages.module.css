@@ -15,3 +15,19 @@
   transition-duration: 1s;
   transform: translateX(-20px);
 }
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  filter: invert(72%) sepia(10%) saturate(1292%) hue-rotate(16deg)
+    brightness(89%) contrast(90%);
+  transition-property: transform;
+  transition-duration: 500ms;
+
+  &:hover,
+  &:focus {
+    filter: invert(90%) sepia(10%) saturate(269%) hue-rotate(33deg)
+      brightness(108%) contrast(85%);
+    transform: scale(1.1);
+  }
+}
