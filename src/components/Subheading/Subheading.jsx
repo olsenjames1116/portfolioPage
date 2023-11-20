@@ -19,7 +19,7 @@ const Subheading = ({ headingText }) => {
   };
 
   useEffect(() => {
-    addObserver(headingRef.current, { rootMargin: '-200px' });
+    addObserver(headingRef.current, { rootMargin: '-50px' });
   }, []);
 
   return (
