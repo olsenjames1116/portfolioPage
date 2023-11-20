@@ -1,4 +1,3 @@
-import heroImage from './hero.jpg';
 import profileImage from './profile.jpg';
 import cssImage from './css.svg';
 import eslintImage from './eslint.svg';
@@ -28,7 +27,6 @@ import powerImage from './power.png';
 import arrowDownImage from './arrowDown.png';
 
 export {
-  heroImage,
   profileImage,
   cssImage,
   eslintImage,
