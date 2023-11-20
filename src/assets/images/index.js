@@ -27,6 +27,8 @@ import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
 import powerImage from './power.png';
 import arrowDownImage from './arrowDown.png';
+import arrowLeftImage from './arrowLeft.png';
+import arrowRightImage from './arrowRight.png';
 
 const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
 const taskManagerImages = [taskManagerImage];
@@ -61,4 +63,6 @@ export {
   emailImage,
   powerImage,
   arrowDownImage,
+  arrowLeftImage,
+  arrowRightImage,
 };
