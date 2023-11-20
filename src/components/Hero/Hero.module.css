@@ -4,11 +4,11 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-}
-
-.hero > img:first-child {
   width: auto;
   height: 100vh;
+  background-image: url(../../assets/images/hero.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .heroText {

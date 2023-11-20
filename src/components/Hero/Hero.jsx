@@ -1,4 +1,4 @@
-import { heroImage, powerImage, arrowDownImage } from '../../assets/images';
+import { powerImage, arrowDownImage } from '../../assets/images';
 import Image from '../Image/Image';
 import Container from '../Container/Container';
 import styles from './Hero.module.css';
@@ -13,7 +13,6 @@ const Hero = () => {
 
   return (
     <section className={styles.hero}>
-      <Image src={heroImage} />
       <Container className={styles.heroText}>
         <h1
           className={
