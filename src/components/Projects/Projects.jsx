@@ -82,7 +82,7 @@ const Projects = () => {
     <ul className={styles.projects}>
       {projects.map((project, index) => {
         return (
-          <li key={index}>
+          <li key={index} className={project.name}>
             <Container className={styles.infoContainer}>
               <ProjectInfo
                 name={project.name}
@@ -95,7 +95,7 @@ const Projects = () => {
               />
             </Container>
             <Container className={styles.imageContainer}>
-              <ProjectImages images={project.src} />
+              <ProjectImages images={project.src} projectName={project.name} />
             </Container>
           </li>
         );

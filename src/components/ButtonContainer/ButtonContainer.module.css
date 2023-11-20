@@ -1,6 +1,7 @@
 .buttonContainer {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 5px;
 
   & > button {
     font-family: 'norseKawl', sans-serif;

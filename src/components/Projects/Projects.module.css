@@ -34,11 +34,7 @@
 .imageContainer {
   display: flex;
   align-items: center;
-
-  & > img {
-    width: 100%;
-    height: auto;
-  }
+  gap: 5px;
 }
 
 @media (max-width: 1000px) {
