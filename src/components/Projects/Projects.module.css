@@ -40,3 +40,10 @@
     height: auto;
   }
 }
+
+@media (max-width: 1000px) {
+  .projects > li {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
