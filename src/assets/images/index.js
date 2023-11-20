@@ -19,12 +19,19 @@ import viteImage from './vite.svg';
 import webpackImage from './webpack.svg';
 import cvBuilderImage from './cvBuilder.png';
 import flickChatImage from './flickChat.png';
+import flickChatImage1 from './flickChat_1.png';
+import flickChatImage2 from './flickChat_2.png';
 import jimClassImage from './jimClass.png';
 import taskManagerImage from './taskManager.png';
 import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
 import powerImage from './power.png';
 import arrowDownImage from './arrowDown.png';
+
+const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
+const taskManagerImages = [taskManagerImage];
+const jimClassImages = [jimClassImage];
+const cvBuilderImages = [cvBuilderImage];
 
 export {
   profileImage,
@@ -46,10 +53,10 @@ export {
   styledComponentsImage,
   viteImage,
   webpackImage,
-  cvBuilderImage,
-  flickChatImage,
-  jimClassImage,
-  taskManagerImage,
+  cvBuilderImages,
+  flickChatImages,
+  jimClassImages,
+  taskManagerImages,
   linkedInImage,
   emailImage,
   powerImage,

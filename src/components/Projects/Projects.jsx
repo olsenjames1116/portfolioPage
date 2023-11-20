@@ -1,15 +1,16 @@
 import { useContext } from 'react';
 import SkillsContext from '../../contexts/SkillsContext';
 import {
-  flickChatImage,
-  taskManagerImage,
-  jimClassImage,
-  cvBuilderImage,
+  flickChatImages,
+  taskManagerImages,
+  jimClassImages,
+  cvBuilderImages,
 } from '../../assets/images';
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
 import Image from '../Image/Image';
+import ProjectImages from '../ProjectImages/ProjectImages';
 import styles from './Projects.module.css';
 
 const Projects = () => {
@@ -21,7 +22,7 @@ const Projects = () => {
       technologies: ['React', 'Redux', 'Firebase', 'Router'],
       summary:
         "A movie blogging app that allows users to comment and interact with comments on some of today's top movies. Read what other people are saying about movies or leave some thoughts of your own. Each comment can be liked or disliked to show the approval of that comment. Each movie page also provides some basic information to keep you up to date on what everyone is watching!",
-      src: flickChatImage,
+      src: flickChatImages,
       sourceCode: 'https://github.com/olsenjames1116/social-networking-app',
       livePreview: 'https://olsenjames1116.github.io/social-networking-app/',
     },
@@ -30,7 +31,7 @@ const Projects = () => {
       technologies: ['Webpack', 'npm'],
       summary:
         "Ever have that feeling that you're forgetting something? You're not alone! Meet the Task Manager app. Add tasks with a title, description, due date and priority. Edit existing tasks as their priority or due dates change. Create folders to organize tasks. Finally, use the sidebar to navigate to pre-existing folders that organize tasks by due dates and importance. All of this is stored on your local machine so you can keep track of your responsibilities. You'll never forget the kid at school again!",
-      src: taskManagerImage,
+      src: taskManagerImages,
       sourceCode: 'https://github.com/olsenjames1116/todoList',
       livePreview: 'https://olsenjames1116.github.io/todoList/',
     },
@@ -39,7 +40,7 @@ const Projects = () => {
       technologies: ['React', 'Router'],
       summary:
         "A mock gym equipment store. This app allows you to browse the shop, view full-size items on their own pages, add items to the cart and checkout. Time to get to work on those New Year's resolutions you've been putting off.",
-      src: jimClassImage,
+      src: jimClassImages,
       sourceCode: 'https://github.com/olsenjames1116/shopping-cart',
       livePreview: 'https://olsenjames1116.github.io/shopping-cart/',
     },
@@ -48,7 +49,7 @@ const Projects = () => {
       technologies: ['React'],
       summary:
         "Move out of your Mom's basement today! Dynamically create and edit your CV with this convenient app! Create new entries and edit/delete existing ones to build out your resume. All changes can be viewed on the document as they are made to give a preview of the final product.",
-      src: cvBuilderImage,
+      src: cvBuilderImages,
       sourceCode: 'https://github.com/olsenjames1116/cv-application',
       livePreview: 'https://olsenjames1116.github.io/cv-application/',
     },
@@ -94,7 +95,7 @@ const Projects = () => {
               />
             </Container>
             <Container className={styles.imageContainer}>
-              <Image src={project.src} />
+              <ProjectImages images={project.src} />
             </Container>
           </li>
         );
