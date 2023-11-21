@@ -4,6 +4,7 @@ import Container from '../Container/Container';
 import ContactLinks from '../ContactLinks/ContactLinks';
 import styles from './Contact.module.css';
 
+// Represents the Contact component in the main content of the page.
 const Contact = () => {
   return (
     <Section id="contact">

@@ -3,6 +3,7 @@ import Container from '../Container/Container';
 import Image from '../Image/Image';
 import './Bio.css';
 
+// Represents the Bio component inside the About section.
 const Bio = () => {
   return (
     <Container className="bio">

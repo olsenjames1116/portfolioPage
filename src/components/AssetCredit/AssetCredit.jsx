@@ -1,5 +1,6 @@
 import Link from '../Link/Link';
 
+// Represents the Asset Credit in the Footer of the page.
 const AssetCredit = () => {
   return (
     <span>

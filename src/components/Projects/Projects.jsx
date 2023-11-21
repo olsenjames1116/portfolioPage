@@ -13,9 +13,12 @@ import Image from '../Image/Image';
 import ProjectImages from '../ProjectImages/ProjectImages';
 import styles from './Projects.module.css';
 
+// Represents the Projects component in the Portfolio component.
 const Projects = () => {
   const { skills } = useContext(SkillsContext);
 
+  /* An array of projects that can be expanded or reduced in the future. This 
+  is used to store all the information on the page to be rendered. */
   const projects = [
     {
       name: 'FlickChat',
@@ -55,6 +58,7 @@ const Projects = () => {
     },
   ];
 
+  // Filters the skills relevant to a project to be displayed.
   const filterSkills = project => {
     let filteredSkills = [];
     for (const technology of project.technologies) {
@@ -64,6 +68,7 @@ const Projects = () => {
     return filteredSkills;
   };
 
+  // Displays relevant skills to a project.
   const displayFilteredSkills = project => {
     const filteredSkills = filterSkills(project);
 
@@ -74,6 +79,7 @@ const Projects = () => {
     ));
   };
 
+  // Opens a new tab for the user to view a project.
   const directToLink = href => {
     window.open(href, '_blank');
   };

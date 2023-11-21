@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 
+// Used as a custom component for desired behavior throughout the page.
 const Link = ({ href, children, target }) => {
   return (
     <>

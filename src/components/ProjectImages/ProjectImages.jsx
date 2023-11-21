@@ -3,9 +3,12 @@ import Container from '../Container/Container';
 import PropTypes from 'prop-types';
 import styles from './ProjectImages.module.css';
 
-export default function ProjectImages({ images, projectName }) {
+// Represents the Project Images component in the Porfolio component.
+const ProjectImages = ({ images, projectName }) => {
+  // The index is set to navigate images.
   let index = 0;
 
+  // Accessed to display the project images and avoid redundancy.
   const displayImages = () => {
     return images.map((image, index) => (
       <img
@@ -17,6 +20,7 @@ export default function ProjectImages({ images, projectName }) {
     ));
   };
 
+  // Loads images as they are navigated through. Used to avoid redundancy.
   const loadImage = n => {
     const imageNodes = document.querySelectorAll(
       `li.${projectName} img.${styles.projectImage}`,
@@ -27,6 +31,7 @@ export default function ProjectImages({ images, projectName }) {
     });
   };
 
+  // Navigates images to the left when the left arrow is interacted with.
   const slideImagesLeft = () => {
     index -= 1;
     index = index < 0 ? images.length - 1 : index;
@@ -34,10 +39,12 @@ export default function ProjectImages({ images, projectName }) {
     loadImage(index);
   };
 
+  // Used to ensure that the enter key is used to interact with an arrow.
   const handleLeftKeyUp = ({ key }) => {
     if (key === 'Enter') slideImagesLeft();
   };
 
+  // Navigates images to the right when the right arrow is interacted with.
   const slideImagesRight = () => {
     index += 1;
     index = index > images.length - 1 ? 0 : index;
@@ -45,6 +52,7 @@ export default function ProjectImages({ images, projectName }) {
     loadImage(index);
   };
 
+  // Used to ensure that the enter key is used to interact with an arrow.
   const handleRightKeyUp = ({ key }) => {
     if (key === 'Enter') slideImagesRight();
   };
@@ -72,9 +80,11 @@ export default function ProjectImages({ images, projectName }) {
   ) : (
     <Container className={styles.frame}>{displayImages()}</Container>
   );
-}
+};
 
 ProjectImages.propTypes = {
   images: PropTypes.array,
   projectName: PropTypes.string,
 };
+
+export default ProjectImages;

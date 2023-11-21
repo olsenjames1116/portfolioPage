@@ -3,7 +3,9 @@ import Image from '../Image/Image';
 import Link from '../Link/Link';
 import styles from './ContactLinks.module.css';
 
+// Represents the Contact Links component in the Contact component.
 const ContactLinks = () => {
+  // An array of links that can be expanded or reduced in the future.
   const links = [
     {
       src: emailImage,

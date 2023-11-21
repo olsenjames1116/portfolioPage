@@ -26,7 +26,10 @@ import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import styles from './Main.module.css';
 
+// Represents the main content of the page.
 const Main = () => {
+  /* Used to represent skills throughout the page. Accessed by a context 
+  provider to be passed around the page. */
   const skills = [
     { name: 'JavaScript', src: javascriptImage },
     { name: 'HTML', src: htmlImage },

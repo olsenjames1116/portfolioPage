@@ -1,5 +1,6 @@
 import Link from '../Link/Link';
 
+// Represents the Author Credit in the Footer of the page.
 const AuthorCredit = () => {
   return (
     <span>

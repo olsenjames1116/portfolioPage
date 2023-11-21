@@ -1,6 +1,7 @@
 import Link from '../Link/Link';
 import './Navbar.module.css';
 
+// Represents the Navbar component at the top of the page.
 const Navbar = () => {
   return (
     <nav>
