@@ -24,6 +24,9 @@ import flickChatImage from './flickChat.png';
 import flickChatImage1 from './flickChat_1.png';
 import flickChatImage2 from './flickChat_2.png';
 import jimClassImage from './jimClass.png';
+import jimClassImage1 from './jimClass_1.png';
+import jimClassImage2 from './jimClass_2.png';
+import jimClassImage3 from './jimClass_3.png';
 import taskManagerImage from './taskManager.png';
 import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
@@ -34,7 +37,12 @@ import arrowRightImage from './arrowRight.png';
 
 const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
 const taskManagerImages = [taskManagerImage];
-const jimClassImages = [jimClassImage];
+const jimClassImages = [
+  jimClassImage,
+  jimClassImage1,
+  jimClassImage2,
+  jimClassImage3,
+];
 const cvBuilderImages = [cvBuilderImage];
 
 export {

@@ -82,7 +82,7 @@ const Projects = () => {
     <ul className={styles.projects}>
       {projects.map((project, index) => {
         return (
-          <li key={index} className={project.name}>
+          <li key={index} className={project.name.split(' ').join('')}>
             <Container className={styles.infoContainer}>
               <ProjectInfo
                 name={project.name}
@@ -95,7 +95,10 @@ const Projects = () => {
               />
             </Container>
             <Container className={styles.imageContainer}>
-              <ProjectImages images={project.src} projectName={project.name} />
+              <ProjectImages
+                images={project.src}
+                projectName={project.name.split(' ').join('')}
+              />
             </Container>
           </li>
         );
