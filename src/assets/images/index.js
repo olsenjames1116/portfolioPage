@@ -1,5 +1,6 @@
 import profileImage from './profile.jpg';
 import cssImage from './css.svg';
+import emmetImage from './emmet.svg';
 import eslintImage from './eslint.svg';
 import firebaseImage from './firebase.svg';
 import gitImage from './git.svg';
@@ -15,6 +16,7 @@ import reactImage from './react.svg';
 import reduxImage from './redux.svg';
 import routerImage from './router.svg';
 import styledComponentsImage from './styledComponents.png';
+import visualStudioCodeImage from './visualStudioCode.svg';
 import viteImage from './vite.svg';
 import webpackImage from './webpack.svg';
 import cvBuilderImage from './cvBuilder.png';
@@ -38,6 +40,7 @@ const cvBuilderImages = [cvBuilderImage];
 export {
   profileImage,
   cssImage,
+  emmetImage,
   eslintImage,
   firebaseImage,
   gitImage,
@@ -53,6 +56,7 @@ export {
   reduxImage,
   routerImage,
   styledComponentsImage,
+  visualStudioCodeImage,
   viteImage,
   webpackImage,
   cvBuilderImages,
