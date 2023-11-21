@@ -29,6 +29,10 @@ export default function ProjectImages({ images, projectName }) {
     loadImage(index);
   };
 
+  const handleLeftKeyUp = ({ key }) => {
+    if (key === 'Enter') slideImagesLeft();
+  };
+
   const slideImagesRight = () => {
     index += 1;
     index = index > images.length - 1 ? 0 : index;
@@ -36,19 +40,27 @@ export default function ProjectImages({ images, projectName }) {
     loadImage(index);
   };
 
+  const handleRightKeyUp = ({ key }) => {
+    if (key === 'Enter') slideImagesRight();
+  };
+
   return images.length > 1 ? (
     <>
       <img
+        tabIndex={0}
         className={styles.arrow}
         src={arrowLeftImage}
         alt="Arrow left"
+        onKeyUp={event => handleLeftKeyUp(event)}
         onClick={() => slideImagesLeft()}
       />
       <Container className={styles.frame}>{displayImages()}</Container>
       <img
+        tabIndex={0}
         className={styles.arrow}
         src={arrowRightImage}
         alt="Arrow right"
+        onKeyUp={event => handleRightKeyUp(event)}
         onClick={() => slideImagesRight()}
       />
     </>
