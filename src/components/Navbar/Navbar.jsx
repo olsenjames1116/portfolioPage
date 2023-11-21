@@ -4,13 +4,13 @@ import './Navbar.module.css';
 const Navbar = () => {
   return (
     <nav>
-      <Link tabIndex={1} href="#about">
+      <Link tabIndex={0} href="#about">
         About
       </Link>
-      <Link tabIndex={1} href="#portfolio">
+      <Link tabIndex={0} href="#portfolio">
         Portfolio
       </Link>
-      <Link tabIndex={1} href="#contact">
+      <Link tabIndex={0} href="#contact">
         Contact
       </Link>
     </nav>
