@@ -4,9 +4,15 @@ import './Navbar.module.css';
 const Navbar = () => {
   return (
     <nav>
-      <Link href="#about">About</Link>
-      <Link href="#portfolio">Portfolio</Link>
-      <Link href="#contact">Contact</Link>
+      <Link tabIndex={1} href="#about">
+        About
+      </Link>
+      <Link tabIndex={1} href="#portfolio">
+        Portfolio
+      </Link>
+      <Link tabIndex={1} href="#contact">
+        Contact
+      </Link>
     </nav>
   );
 };
