@@ -28,6 +28,11 @@ import jimClassImage1 from './jimClass_1.png';
 import jimClassImage2 from './jimClass_2.png';
 import jimClassImage3 from './jimClass_3.png';
 import taskManagerImage from './taskManager.png';
+import taskManagerImage1 from './taskManager_1.png';
+import taskManagerImage2 from './taskManager_2.png';
+import taskManagerImage3 from './taskManager_3.png';
+import taskManagerImage4 from './taskManager_4.png';
+import taskManagerImage5 from './taskManager_5.png';
 import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
 import powerImage from './power.png';
@@ -36,7 +41,14 @@ import arrowLeftImage from './arrowLeft.png';
 import arrowRightImage from './arrowRight.png';
 
 const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
-const taskManagerImages = [taskManagerImage];
+const taskManagerImages = [
+  taskManagerImage,
+  taskManagerImage1,
+  taskManagerImage2,
+  taskManagerImage3,
+  taskManagerImage4,
+  taskManagerImage5,
+];
 const jimClassImages = [
   jimClassImage,
   jimClassImage1,
