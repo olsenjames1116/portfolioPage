@@ -11,6 +11,10 @@ const Hero = () => {
     powerOn ? setPowerOn(false) : setPowerOn(true);
   };
 
+  const handleKeyUp = ({ key }) => {
+    if (key === 'Enter') handlePower();
+  };
+
   return (
     <section className={styles.hero}>
       <Container className={styles.heroText}>
@@ -24,9 +28,12 @@ const Hero = () => {
           James Olsen
         </h1>
         <img
+          tabIndex={0}
           className={powerOn ? styles.powerOn : styles.powerOff}
           src={powerImage}
+          alt="Power icon"
           onClick={() => handlePower()}
+          onKeyUp={event => handleKeyUp(event)}
         />
         <h1 className={styles.jobTitle}>Full Stack Web Developer</h1>
       </Container>

@@ -8,7 +8,12 @@ export default function ProjectImages({ images, projectName }) {
 
   const displayImages = () => {
     return images.map((image, index) => (
-      <img key={index} className={styles.projectImage} src={image} />
+      <img
+        key={index}
+        className={styles.projectImage}
+        alt="Project screenshot"
+        src={image}
+      />
     ));
   };
 
