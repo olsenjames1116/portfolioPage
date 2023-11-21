@@ -16,7 +16,7 @@ Contact:
 
 ## Description
 
-Come learn more about me! See some projects and skills I have picked up along on the road to becoming a web developer. My contact information is provided if you would like to know more!
+Come learn more about me! See some projects and skills I have picked up on my journey to becoming a web developer. My contact information is provided if you would like to know more!
 
 This project highlights:
 
