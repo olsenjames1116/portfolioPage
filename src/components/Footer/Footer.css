@@ -10,5 +10,5 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: var(--secondaryColor);
+  color: rgb(0, 63, 0);
 }

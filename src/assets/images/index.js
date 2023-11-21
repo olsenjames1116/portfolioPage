@@ -9,6 +9,7 @@ import htmlImage from './html.svg';
 import javascriptImage from './javascript.svg';
 import jestImage from './jest.png';
 import linuxImage from './linux.png';
+import netlifyImage from './netlify.svg';
 import nodejsImage from './nodejs.svg';
 import npmImage from './npm.svg';
 import prettierImage from './prettier.svg';
@@ -69,6 +70,7 @@ export {
   javascriptImage,
   jestImage,
   linuxImage,
+  netlifyImage,
   nodejsImage,
   npmImage,
   prettierImage,

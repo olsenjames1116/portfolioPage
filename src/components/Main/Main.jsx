@@ -19,6 +19,7 @@ import {
   routerImage,
   emmetImage,
   visualStudioCodeImage,
+  netlifyImage,
 } from '../../assets/images';
 import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
@@ -49,6 +50,7 @@ const Main = () => {
     { name: 'Emmet', src: emmetImage },
     { name: 'Firebase', src: firebaseImage },
     { name: 'GitHub', src: githubImage },
+    { name: 'Netlify', src: netlifyImage },
     { name: 'Visual Studio Code', src: visualStudioCodeImage },
     { name: 'Linux', src: linuxImage },
   ];
