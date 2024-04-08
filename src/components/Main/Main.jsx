@@ -26,6 +26,7 @@ import {
   redisImage,
   sassImage,
   jwtImage,
+  pugImage,
 } from '../../assets/images';
 import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
@@ -53,6 +54,7 @@ const Main = () => {
     { name: 'Vite', src: viteImage },
     { name: 'Router', src: routerImage },
     { name: 'Redux', src: reduxImage },
+    { name: 'Pug', src: pugImage },
     { name: 'styled-components', src: styledComponentsImage },
     { name: 'Jest', src: jestImage },
     { name: 'Webpack', src: webpackImage },

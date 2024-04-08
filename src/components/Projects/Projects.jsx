@@ -7,6 +7,7 @@ import {
   jimClassImages,
   hermesImages,
   pubChairSportsImages,
+  shoelaceExpressImages,
 } from '../../assets/images';
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
@@ -57,6 +58,15 @@ const Projects = () => {
       src: pubChairSportsImages,
       sourceCode: 'https://github.com/olsenjames1116/blogAPI',
       livePreview: 'https://pubchairsports.onrender.com/',
+    },
+    {
+      name: 'Shoelace Express',
+      technologies: ['Express', 'MongoDB', 'Pug'],
+      summary:
+        'Keep track of all your inventory with this inventory tracking app. Create, read, update and delete items and categories from the database to keep your stock organized and up to date. This project uses shoes to show off its functionality but has the ability to work with any sort of data the user wishes.',
+      src: shoelaceExpressImages,
+      sourceCode: 'https://github.com/olsenjames1116/inventoryApp',
+      livePreview: 'https://shoelaceexpress.onrender.com/',
     },
     {
       name: 'Task Manager',

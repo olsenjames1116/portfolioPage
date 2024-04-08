@@ -16,6 +16,7 @@ import netlifyImage from './netlify.svg';
 import nodejsImage from './nodejs.svg';
 import npmImage from './npm.svg';
 import prettierImage from './prettier.svg';
+import pugImage from './pug.png';
 import reactImage from './react.svg';
 import redisImage from './redis.png';
 import reduxImage from './redux.svg';
@@ -43,6 +44,11 @@ import pubChairSportsImage3 from './pubChairSports_3.png';
 import pubChairSportsImage4 from './pubChairSports_4.png';
 import pubChairSportsImage5 from './pubChairSports_5.png';
 import pubChairSportsImage6 from './pubChairSports_6.png';
+import shoelaceExpressImage1 from './shoelaceExpress_1.png';
+import shoelaceExpressImage2 from './shoelaceExpress_2.png';
+import shoelaceExpressImage3 from './shoelaceExpress_3.png';
+import shoelaceExpressImage4 from './shoelaceExpress_4.png';
+import shoelaceExpressImage5 from './shoelaceExpress_5.png';
 import taskManagerImage from './taskManager.png';
 import taskManagerImage1 from './taskManager_1.png';
 import taskManagerImage2 from './taskManager_2.png';
@@ -74,14 +80,6 @@ const whiskImages = [
 ];
 const hermesImages = [hermesImage1, hermesImage2, hermesImage3, hermesImage4];
 const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
-const taskManagerImages = [
-  taskManagerImage,
-  taskManagerImage1,
-  taskManagerImage2,
-  taskManagerImage3,
-  taskManagerImage4,
-  taskManagerImage5,
-];
 const pubChairSportsImages = [
   pubChairSportsImage1,
   pubChairSportsImage2,
@@ -89,6 +87,21 @@ const pubChairSportsImages = [
   pubChairSportsImage4,
   pubChairSportsImage5,
   pubChairSportsImage6,
+];
+const shoelaceExpressImages = [
+  shoelaceExpressImage1,
+  shoelaceExpressImage2,
+  shoelaceExpressImage3,
+  shoelaceExpressImage4,
+  shoelaceExpressImage5,
+];
+const taskManagerImages = [
+  taskManagerImage,
+  taskManagerImage1,
+  taskManagerImage2,
+  taskManagerImage3,
+  taskManagerImage4,
+  taskManagerImage5,
 ];
 const jimClassImages = [
   jimClassImage,
@@ -116,6 +129,7 @@ export {
   nodejsImage,
   npmImage,
   prettierImage,
+  pugImage,
   reactImage,
   redisImage,
   reduxImage,
@@ -130,6 +144,7 @@ export {
   hermesImages,
   jimClassImages,
   pubChairSportsImages,
+  shoelaceExpressImages,
   taskManagerImages,
   whiskImages,
   linkedInImage,
