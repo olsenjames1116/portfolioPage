@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import SkillsContext from '../../contexts/SkillsContext';
 import {
+  whiskImages,
   flickChatImages,
   taskManagerImages,
   jimClassImages,
@@ -20,6 +21,15 @@ const Projects = () => {
   /* An array of projects that can be expanded or reduced in the future. This 
   is used to store all the information on the page to be rendered. */
   const projects = [
+    {
+      name: 'Whisk',
+      technologies: ['TypeScript', 'React', 'Sass', 'MongoDB', 'Express'],
+      summary:
+        'A full service recipe and grocery app for trying something new! Generate a random recipe or a recipe using ingredients you already have in your pantry. Store ingredients you have in your pantry to help search for recipes and build a grocery list. Use your stored recipes to plan out your meals for the week. All of that can be done with the help of Whisk!',
+      src: whiskImages,
+      sourceCode: 'https://github.com/olsenjames1116/recipeApp',
+      livePreview: 'https://whisk.onrender.com',
+    },
     {
       name: 'FlickChat',
       technologies: ['React', 'Redux', 'Firebase', 'Router'],

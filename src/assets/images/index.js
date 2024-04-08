@@ -39,6 +39,13 @@ import taskManagerImage2 from './taskManager_2.png';
 import taskManagerImage3 from './taskManager_3.png';
 import taskManagerImage4 from './taskManager_4.png';
 import taskManagerImage5 from './taskManager_5.png';
+import whiskImage1 from './whisk_1.png';
+import whiskImage2 from './whisk_2.png';
+import whiskImage3 from './whisk_3.png';
+import whiskImage4 from './whisk_4.png';
+import whiskImage5 from './whisk_5.png';
+import whiskImage6 from './whisk_6.png';
+import whiskImage7 from './whisk_7.png';
 import linkedInImage from './linkedin.svg';
 import emailImage from './email.png';
 import powerImage from './power.png';
@@ -46,6 +53,15 @@ import arrowDownImage from './arrowDown.png';
 import arrowLeftImage from './arrowLeft.png';
 import arrowRightImage from './arrowRight.png';
 
+const whiskImages = [
+  whiskImage1,
+  whiskImage2,
+  whiskImage3,
+  whiskImage4,
+  whiskImage5,
+  whiskImage6,
+  whiskImage7,
+];
 const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
 const taskManagerImages = [
   taskManagerImage,
@@ -95,6 +111,7 @@ export {
   flickChatImages,
   jimClassImages,
   taskManagerImages,
+  whiskImages,
   linkedInImage,
   emailImage,
   powerImage,
