@@ -34,10 +34,6 @@ import hermesImage1 from './hermes_1.png';
 import hermesImage2 from './hermes_2.png';
 import hermesImage3 from './hermes_3.png';
 import hermesImage4 from './hermes_4.png';
-import jimClassImage from './jimClass.png';
-import jimClassImage1 from './jimClass_1.png';
-import jimClassImage2 from './jimClass_2.png';
-import jimClassImage3 from './jimClass_3.png';
 import pubChairSportsImage1 from './pubChairSports_1.png';
 import pubChairSportsImage2 from './pubChairSports_2.png';
 import pubChairSportsImage3 from './pubChairSports_3.png';
@@ -103,12 +99,6 @@ const taskManagerImages = [
   taskManagerImage4,
   taskManagerImage5,
 ];
-const jimClassImages = [
-  jimClassImage,
-  jimClassImage1,
-  jimClassImage2,
-  jimClassImage3,
-];
 
 export {
   profileImage,
@@ -142,7 +132,6 @@ export {
   webpackImage,
   flickChatImages,
   hermesImages,
-  jimClassImages,
   pubChairSportsImages,
   shoelaceExpressImages,
   taskManagerImages,

@@ -4,7 +4,6 @@ import {
   whiskImages,
   flickChatImages,
   taskManagerImages,
-  jimClassImages,
   hermesImages,
   pubChairSportsImages,
   shoelaceExpressImages,
@@ -76,15 +75,6 @@ const Projects = () => {
       src: taskManagerImages,
       sourceCode: 'https://github.com/olsenjames1116/todoList',
       livePreview: 'https://olsenjames1116.github.io/todoList/',
-    },
-    {
-      name: 'Jim Class',
-      technologies: ['React', 'Router'],
-      summary:
-        "A mock gym equipment store. This app allows you to browse the shop, view full-size items on their own pages, add items to the cart and checkout. Time to get to work on those New Year's resolutions you've been putting off.",
-      src: jimClassImages,
-      sourceCode: 'https://github.com/olsenjames1116/shopping-cart',
-      livePreview: 'https://olsenjames1116.github.io/shopping-cart/',
     },
   ];
 
