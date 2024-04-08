@@ -7,6 +7,7 @@ import {
   hermesImages,
   pubChairSportsImages,
   shoelaceExpressImages,
+  grapevineImages,
 } from '../../assets/images';
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
@@ -66,6 +67,15 @@ const Projects = () => {
       src: shoelaceExpressImages,
       sourceCode: 'https://github.com/olsenjames1116/inventoryApp',
       livePreview: 'https://shoelaceexpress.onrender.com/',
+    },
+    {
+      name: 'Grapevine',
+      technologies: ['Express', 'MongoDB', 'Pug'],
+      summary:
+        "An exclusive club for people who want to say what's on their mind. While anyone with an account can post a message on the home page, only members can view who posted it and when. Join the club with a code word to view who posted a message and on what date. Admins can delete posts but users can only be made an admin through another code word.",
+      src: grapevineImages,
+      sourceCode: 'https://github.com/olsenjames1116/membersOnly',
+      livePreview: 'https://grapevine-wszg.onrender.com/messages',
     },
     {
       name: 'Task Manager',

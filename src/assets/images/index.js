@@ -30,6 +30,12 @@ import webpackImage from './webpack.svg';
 import flickChatImage from './flickChat.png';
 import flickChatImage1 from './flickChat_1.png';
 import flickChatImage2 from './flickChat_2.png';
+import grapevineImage1 from './grapevine_1.png';
+import grapevineImage2 from './grapevine_2.png';
+import grapevineImage3 from './grapevine_3.png';
+import grapevineImage4 from './grapevine_4.png';
+import grapevineImage5 from './grapevine_5.png';
+import grapevineImage6 from './grapevine_6.png';
 import hermesImage1 from './hermes_1.png';
 import hermesImage2 from './hermes_2.png';
 import hermesImage3 from './hermes_3.png';
@@ -91,6 +97,14 @@ const shoelaceExpressImages = [
   shoelaceExpressImage4,
   shoelaceExpressImage5,
 ];
+const grapevineImages = [
+  grapevineImage1,
+  grapevineImage2,
+  grapevineImage3,
+  grapevineImage4,
+  grapevineImage5,
+  grapevineImage6,
+];
 const taskManagerImages = [
   taskManagerImage,
   taskManagerImage1,
@@ -131,6 +145,7 @@ export {
   viteImage,
   webpackImage,
   flickChatImages,
+  grapevineImages,
   hermesImages,
   pubChairSportsImages,
   shoelaceExpressImages,
