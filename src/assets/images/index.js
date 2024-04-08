@@ -9,6 +9,7 @@ import githubImage from './github.svg';
 import htmlImage from './html.svg';
 import javascriptImage from './javascript.svg';
 import jestImage from './jest.png';
+import jwtImage from './jwt.png';
 import linuxImage from './linux.png';
 import mongodbImage from './mongodb.png';
 import netlifyImage from './netlify.svg';
@@ -36,6 +37,12 @@ import jimClassImage from './jimClass.png';
 import jimClassImage1 from './jimClass_1.png';
 import jimClassImage2 from './jimClass_2.png';
 import jimClassImage3 from './jimClass_3.png';
+import pubChairSportsImage1 from './pubChairSports_1.png';
+import pubChairSportsImage2 from './pubChairSports_2.png';
+import pubChairSportsImage3 from './pubChairSports_3.png';
+import pubChairSportsImage4 from './pubChairSports_4.png';
+import pubChairSportsImage5 from './pubChairSports_5.png';
+import pubChairSportsImage6 from './pubChairSports_6.png';
 import taskManagerImage from './taskManager.png';
 import taskManagerImage1 from './taskManager_1.png';
 import taskManagerImage2 from './taskManager_2.png';
@@ -75,6 +82,14 @@ const taskManagerImages = [
   taskManagerImage4,
   taskManagerImage5,
 ];
+const pubChairSportsImages = [
+  pubChairSportsImage1,
+  pubChairSportsImage2,
+  pubChairSportsImage3,
+  pubChairSportsImage4,
+  pubChairSportsImage5,
+  pubChairSportsImage6,
+];
 const jimClassImages = [
   jimClassImage,
   jimClassImage1,
@@ -94,6 +109,7 @@ export {
   htmlImage,
   javascriptImage,
   jestImage,
+  jwtImage,
   linuxImage,
   mongodbImage,
   netlifyImage,
@@ -113,6 +129,7 @@ export {
   flickChatImages,
   hermesImages,
   jimClassImages,
+  pubChairSportsImages,
   taskManagerImages,
   whiskImages,
   linkedInImage,

@@ -6,6 +6,7 @@ import {
   taskManagerImages,
   jimClassImages,
   hermesImages,
+  pubChairSportsImages,
 } from '../../assets/images';
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
@@ -47,6 +48,15 @@ const Projects = () => {
       src: flickChatImages,
       sourceCode: 'https://github.com/olsenjames1116/social-networking-app',
       livePreview: 'https://olsenjames1116.github.io/social-networking-app/',
+    },
+    {
+      name: 'Pub Chair Sports',
+      technologies: ['React', 'MongoDB', 'Express', 'Redux', 'JWT'],
+      summary:
+        "This app provides you with the latest news on what's happening in the sports world from our bloggers. Sign up for an account, leave comments and view more detail on stories from this blogging app.",
+      src: pubChairSportsImages,
+      sourceCode: 'https://github.com/olsenjames1116/blogAPI',
+      livePreview: 'https://pubchairsports.onrender.com/',
     },
     {
       name: 'Task Manager',

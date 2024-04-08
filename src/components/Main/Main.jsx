@@ -25,6 +25,7 @@ import {
   mongodbImage,
   redisImage,
   sassImage,
+  jwtImage,
 } from '../../assets/images';
 import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
@@ -48,6 +49,7 @@ const Main = () => {
     { name: 'MongoDB', src: mongodbImage },
     { name: 'Redis', src: redisImage },
     { name: 'Git', src: gitImage },
+    { name: 'JWT', src: jwtImage },
     { name: 'Vite', src: viteImage },
     { name: 'Router', src: routerImage },
     { name: 'Redux', src: reduxImage },
