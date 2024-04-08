@@ -5,7 +5,6 @@ import {
   flickChatImages,
   taskManagerImages,
   jimClassImages,
-  cvBuilderImages,
   hermesImages,
 } from '../../assets/images';
 import Container from '../Container/Container';
@@ -66,15 +65,6 @@ const Projects = () => {
       src: jimClassImages,
       sourceCode: 'https://github.com/olsenjames1116/shopping-cart',
       livePreview: 'https://olsenjames1116.github.io/shopping-cart/',
-    },
-    {
-      name: 'CV Builder',
-      technologies: ['React'],
-      summary:
-        "Move out of your Mom's basement today! Dynamically create and edit your CV with this convenient app! Create new entries and edit/delete existing ones to build out your resume. All changes can be viewed on the document as they are made to give a preview of the final product.",
-      src: cvBuilderImages,
-      sourceCode: 'https://github.com/olsenjames1116/cv-application',
-      livePreview: 'https://olsenjames1116.github.io/cv-application/',
     },
   ];
 

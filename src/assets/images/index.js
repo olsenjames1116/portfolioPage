@@ -25,7 +25,6 @@ import typescriptImage from './typescript.png';
 import visualStudioCodeImage from './visualStudioCode.svg';
 import viteImage from './vite.svg';
 import webpackImage from './webpack.svg';
-import cvBuilderImage from './cvBuilder.png';
 import flickChatImage from './flickChat.png';
 import flickChatImage1 from './flickChat_1.png';
 import flickChatImage2 from './flickChat_2.png';
@@ -82,7 +81,6 @@ const jimClassImages = [
   jimClassImage2,
   jimClassImage3,
 ];
-const cvBuilderImages = [cvBuilderImage];
 
 export {
   profileImage,
@@ -112,7 +110,6 @@ export {
   visualStudioCodeImage,
   viteImage,
   webpackImage,
-  cvBuilderImages,
   flickChatImages,
   hermesImages,
   jimClassImages,
