@@ -3,7 +3,6 @@ import SkillsContext from '../../contexts/SkillsContext';
 import {
   whiskImages,
   flickChatImages,
-  taskManagerImages,
   hermesImages,
   pubChairSportsImages,
   shoelaceExpressImages,
@@ -76,15 +75,6 @@ const Projects = () => {
       src: grapevineImages,
       sourceCode: 'https://github.com/olsenjames1116/membersOnly',
       livePreview: 'https://grapevine-wszg.onrender.com/messages',
-    },
-    {
-      name: 'Task Manager',
-      technologies: ['Webpack', 'npm'],
-      summary:
-        "Ever have that feeling that you're forgetting something? You're not alone! Meet the Task Manager app. Add tasks with a title, description, due date and priority. Edit existing tasks as their priority or due dates change. Create folders to organize tasks. Finally, use the sidebar to navigate to pre-existing folders that organize tasks by due dates and importance. All of this is stored on your local machine so you can keep track of your responsibilities. You'll never forget the kid at school again!",
-      src: taskManagerImages,
-      sourceCode: 'https://github.com/olsenjames1116/todoList',
-      livePreview: 'https://olsenjames1116.github.io/todoList/',
     },
   ];
 

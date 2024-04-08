@@ -51,12 +51,6 @@ import shoelaceExpressImage2 from './shoelaceExpress_2.png';
 import shoelaceExpressImage3 from './shoelaceExpress_3.png';
 import shoelaceExpressImage4 from './shoelaceExpress_4.png';
 import shoelaceExpressImage5 from './shoelaceExpress_5.png';
-import taskManagerImage from './taskManager.png';
-import taskManagerImage1 from './taskManager_1.png';
-import taskManagerImage2 from './taskManager_2.png';
-import taskManagerImage3 from './taskManager_3.png';
-import taskManagerImage4 from './taskManager_4.png';
-import taskManagerImage5 from './taskManager_5.png';
 import whiskImage1 from './whisk_1.png';
 import whiskImage2 from './whisk_2.png';
 import whiskImage3 from './whisk_3.png';
@@ -105,14 +99,6 @@ const grapevineImages = [
   grapevineImage5,
   grapevineImage6,
 ];
-const taskManagerImages = [
-  taskManagerImage,
-  taskManagerImage1,
-  taskManagerImage2,
-  taskManagerImage3,
-  taskManagerImage4,
-  taskManagerImage5,
-];
 
 export {
   profileImage,
@@ -149,7 +135,6 @@ export {
   hermesImages,
   pubChairSportsImages,
   shoelaceExpressImages,
-  taskManagerImages,
   whiskImages,
   linkedInImage,
   emailImage,
