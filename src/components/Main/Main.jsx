@@ -20,6 +20,11 @@ import {
   emmetImage,
   visualStudioCodeImage,
   netlifyImage,
+  typescriptImage,
+  expressImage,
+  mongodbImage,
+  redisImage,
+  sassImage,
 } from '../../assets/images';
 import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
@@ -33,16 +38,21 @@ const Main = () => {
   provider to be passed around the page. */
   const skills = [
     { name: 'JavaScript', src: javascriptImage },
+    { name: 'TypeScript', src: typescriptImage },
     { name: 'HTML', src: htmlImage },
     { name: 'CSS', src: cssImage },
-    { name: 'Git', src: gitImage },
+    { name: 'Sass', src: sassImage },
     { name: 'React', src: reactImage },
+    { name: 'NodeJS', src: nodejsImage },
+    { name: 'Express', src: expressImage },
+    { name: 'MongoDB', src: mongodbImage },
+    { name: 'Redis', src: redisImage },
+    { name: 'Git', src: gitImage },
     { name: 'Vite', src: viteImage },
     { name: 'Router', src: routerImage },
     { name: 'Redux', src: reduxImage },
     { name: 'styled-components', src: styledComponentsImage },
     { name: 'Jest', src: jestImage },
-    { name: 'NodeJS', src: nodejsImage },
     { name: 'Webpack', src: webpackImage },
     { name: 'npm', src: npmImage },
     { name: 'ESLint', src: eslintImage },
