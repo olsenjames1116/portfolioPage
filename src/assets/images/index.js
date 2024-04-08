@@ -29,6 +29,10 @@ import cvBuilderImage from './cvBuilder.png';
 import flickChatImage from './flickChat.png';
 import flickChatImage1 from './flickChat_1.png';
 import flickChatImage2 from './flickChat_2.png';
+import hermesImage1 from './hermes_1.png';
+import hermesImage2 from './hermes_2.png';
+import hermesImage3 from './hermes_3.png';
+import hermesImage4 from './hermes_4.png';
 import jimClassImage from './jimClass.png';
 import jimClassImage1 from './jimClass_1.png';
 import jimClassImage2 from './jimClass_2.png';
@@ -62,6 +66,7 @@ const whiskImages = [
   whiskImage6,
   whiskImage7,
 ];
+const hermesImages = [hermesImage1, hermesImage2, hermesImage3, hermesImage4];
 const flickChatImages = [flickChatImage, flickChatImage1, flickChatImage2];
 const taskManagerImages = [
   taskManagerImage,
@@ -109,6 +114,7 @@ export {
   webpackImage,
   cvBuilderImages,
   flickChatImages,
+  hermesImages,
   jimClassImages,
   taskManagerImages,
   whiskImages,

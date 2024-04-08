@@ -6,6 +6,7 @@ import {
   taskManagerImages,
   jimClassImages,
   cvBuilderImages,
+  hermesImages,
 } from '../../assets/images';
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
@@ -29,6 +30,15 @@ const Projects = () => {
       src: whiskImages,
       sourceCode: 'https://github.com/olsenjames1116/recipeApp',
       livePreview: 'https://whisk.onrender.com',
+    },
+    {
+      name: 'Hermes',
+      technologies: ['React', 'MongoDB', 'Express', 'Redis', 'Redux'],
+      summary:
+        'A messaging app to chat back and forth with friends. Sign up for an account, chat and edit your profile as you see fit.',
+      src: hermesImages,
+      sourceCode: 'https://github.com/olsenjames1116/messagingApp',
+      livePreview: 'https://hermes-auv3.onrender.com',
     },
     {
       name: 'FlickChat',
