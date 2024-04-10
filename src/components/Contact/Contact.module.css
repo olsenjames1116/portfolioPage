@@ -7,7 +7,15 @@
 
   & > span {
     font-size: 2rem;
-    overflow-wrap: anywhere;
+    width: 100%;
     text-align: center;
+  }
+}
+
+@media (max-width: 470px) {
+  .contactInfo {
+    & > span {
+      font-size: 1.5rem;
+    }
   }
 }
