@@ -29,7 +29,7 @@ const Projects = () => {
         'A full service recipe and grocery app for trying something new! Generate a random recipe or a recipe using ingredients you already have in your pantry. Store ingredients you have in your pantry to help search for recipes and build a grocery list. Use your stored recipes to plan out your meals for the week. All of that can be done with the help of Whisk!',
       src: whiskImages,
       sourceCode: 'https://github.com/olsenjames1116/recipeApp',
-      livePreview: 'https://whisk-recipes.com/log-in',
+      livePreview: 'https://whisk-recipes.com/',
     },
     {
       name: 'Hermes',
