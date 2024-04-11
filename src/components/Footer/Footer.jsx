@@ -6,6 +6,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
+      © 2024 James Olsen. All Rights Reserved.
       <AuthorCredit />
       <AssetCredit />
     </footer>

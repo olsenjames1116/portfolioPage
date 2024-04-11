@@ -27,4 +27,4 @@ This project highlights:
 - Animation and transitions
 - CSS Modules
 
-All materials and coding contained herein are © 2024 by James Olsen.
+© 2024 James Olsen. All Rights Reserved.
