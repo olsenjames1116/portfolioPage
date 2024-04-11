@@ -5,7 +5,10 @@ const AuthorCredit = () => {
   return (
     <span>
       Built and designed by{' '}
-      <Link href="https://github.com/olsenjames1116" target="_blank">
+      <Link
+        href="https://github.com/olsenjames1116/portfolioPage"
+        target="_blank"
+      >
         olsenjames1116
       </Link>
     </span>
