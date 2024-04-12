@@ -1,10 +1,10 @@
-const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 const projectRouter = require('./routes/project');
+const skillRouter = require('./routes/skill');
 
 var app = express();
 const port = process.env.PORT || 3000;
@@ -19,6 +19,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/project', projectRouter);
+app.use('/skill', skillRouter);
 
 // Generic error handler.
 app.use((err, req, res, next) => {
@@ -30,7 +31,7 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
 	const url =
 		process.env.NODE_ENV === 'production'
-			? 'https://api.whisk-recipes.com'
+			? 'https://api.jamesolsenwebdev.com/'
 			: `http://localhost:${port}`;
 	console.log(`Server running at ${url}`);
 });
