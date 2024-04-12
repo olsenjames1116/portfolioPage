@@ -1,4 +1,4 @@
-import { Schema, Types, model } from 'mongoose';
+const { Schema, Types, model } = require('mongoose');
 
 // Schema for project document in MongoDB.
 const ProjectSchema = new Schema({
@@ -10,4 +10,4 @@ const ProjectSchema = new Schema({
 	livePreview: { type: String, required: true },
 });
 
-export default model('Project', ProjectSchema);
+module.exports = model('Project', ProjectSchema);

@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose';
+const { Schema, model } = require('mongoose');
 
 // Schema for skills displayed in about section from MongoDB.
 const SkillSchema = new Schema({
@@ -6,4 +6,4 @@ const SkillSchema = new Schema({
 	image: { type: String, required: true },
 });
 
-export default model('Skill', SkillSchema);
+module.exports = model('Skill', SkillSchema);
