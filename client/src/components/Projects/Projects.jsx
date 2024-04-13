@@ -1,5 +1,3 @@
-import { useContext } from 'react';
-import SkillsContext from '../../contexts/SkillsContext';
 import {
   whiskImages,
   flickChatImages,
@@ -11,14 +9,11 @@ import {
 import Container from '../Container/Container';
 import ButtonContainer from '../ButtonContainer/ButtonContainer';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
-import Image from '../Image/Image';
 import ProjectImages from '../ProjectImages/ProjectImages';
 import styles from './Projects.module.css';
 
 // Represents the Projects component in the Portfolio component.
 const Projects = () => {
-  const { skills } = useContext(SkillsContext);
-
   /* An array of projects that can be expanded or reduced in the future. This 
   is used to store all the information on the page to be rendered. */
   const projects = [
@@ -78,27 +73,6 @@ const Projects = () => {
     },
   ];
 
-  // Filters the skills relevant to a project to be displayed.
-  const filterSkills = project => {
-    let filteredSkills = [];
-    for (const technology of project.technologies) {
-      const temp = skills.filter(skill => skill.name === technology);
-      filteredSkills.push(...temp);
-    }
-    return filteredSkills;
-  };
-
-  // Displays relevant skills to a project.
-  const displayFilteredSkills = project => {
-    const filteredSkills = filterSkills(project);
-
-    return filteredSkills.map((skill, index) => (
-      <li key={index}>
-        <Image src={skill.src} />
-      </li>
-    ));
-  };
-
   // Opens a new tab for the user to view a project.
   const directToLink = href => {
     window.open(href, '_blank');
@@ -112,7 +86,7 @@ const Projects = () => {
             <Container className={styles.infoContainer}>
               <ProjectInfo
                 name={project.name}
-                displayFilteredSkills={displayFilteredSkills(project)}
+                project={project}
                 summary={project.summary}
               />
               <ButtonContainer

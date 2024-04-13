@@ -1,32 +1,5 @@
 import profileImage from './profile.jpg';
-import cssImage from './css.svg';
-import emmetImage from './emmet.svg';
-import eslintImage from './eslint.svg';
-import expressImage from './express.png';
-import firebaseImage from './firebase.svg';
-import gitImage from './git.svg';
 import githubImage from './github.svg';
-import htmlImage from './html.svg';
-import javascriptImage from './javascript.svg';
-import jestImage from './jest.png';
-import jwtImage from './jwt.png';
-import linuxImage from './linux.png';
-import mongodbImage from './mongodb.png';
-import netlifyImage from './netlify.svg';
-import nodejsImage from './nodejs.svg';
-import npmImage from './npm.svg';
-import prettierImage from './prettier.svg';
-import pugImage from './pug.png';
-import reactImage from './react.svg';
-import redisImage from './redis.png';
-import reduxImage from './redux.svg';
-import routerImage from './router.svg';
-import sassImage from './sass.png';
-import styledComponentsImage from './styledComponents.png';
-import typescriptImage from './typescript.png';
-import visualStudioCodeImage from './visualStudioCode.svg';
-import viteImage from './vite.svg';
-import webpackImage from './webpack.svg';
 import flickChatImage from './flickChat.png';
 import flickChatImage1 from './flickChat_1.png';
 import flickChatImage2 from './flickChat_2.png';
@@ -102,34 +75,7 @@ const grapevineImages = [
 
 export {
   profileImage,
-  cssImage,
-  emmetImage,
-  eslintImage,
-  expressImage,
-  firebaseImage,
-  gitImage,
   githubImage,
-  htmlImage,
-  javascriptImage,
-  jestImage,
-  jwtImage,
-  linuxImage,
-  mongodbImage,
-  netlifyImage,
-  nodejsImage,
-  npmImage,
-  prettierImage,
-  pugImage,
-  reactImage,
-  redisImage,
-  reduxImage,
-  routerImage,
-  sassImage,
-  styledComponentsImage,
-  typescriptImage,
-  visualStudioCodeImage,
-  viteImage,
-  webpackImage,
   flickChatImages,
   grapevineImages,
   hermesImages,
