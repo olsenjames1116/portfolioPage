@@ -26,7 +26,7 @@ const Projects = () => {
       name: 'Whisk',
       technologies: ['TypeScript', 'React', 'Sass', 'MongoDB', 'Express'],
       summary:
-        'A full service recipe and grocery app for trying something new! Generate a random recipe or a recipe using ingredients you already have in your pantry. Store ingredients you have in your pantry to help search for recipes and build a grocery list. Use your stored recipes to plan out your meals for the week. All of that can be done with the help of Whisk!',
+        'A recipe, grocery and meal planner full-stack app and API with trying something new in mind.',
       src: whiskImages,
       sourceCode: 'https://github.com/olsenjames1116/recipeApp',
       livePreview: 'https://whisk-recipes.com/',
@@ -34,8 +34,7 @@ const Projects = () => {
     {
       name: 'Hermes',
       technologies: ['React', 'MongoDB', 'Express', 'Redis', 'Redux'],
-      summary:
-        'A messaging app to chat back and forth with friends. Sign up for an account, chat and edit your profile as you see fit.',
+      summary: 'A messenger full-stack app and API to chat with friends.',
       src: hermesImages,
       sourceCode: 'https://github.com/olsenjames1116/messagingApp',
       livePreview: 'https://hermes-auv3.onrender.com',
@@ -44,7 +43,7 @@ const Projects = () => {
       name: 'FlickChat',
       technologies: ['React', 'Redux', 'Firebase', 'Router'],
       summary:
-        "A movie blogging app that allows users to comment and interact with comments on some of today's top movies. Read what other people are saying about movies or leave some thoughts of your own. Each comment can be liked or disliked to show the approval of that comment. Each movie page also provides some basic information to keep you up to date on what everyone is watching!",
+        "Movie blogging app for users to comment and interact on some of today's top movies.",
       src: flickChatImages,
       sourceCode: 'https://github.com/olsenjames1116/social-networking-app',
       livePreview: 'https://olsenjames1116.github.io/social-networking-app/',
@@ -53,7 +52,7 @@ const Projects = () => {
       name: 'Pub Chair Sports',
       technologies: ['React', 'MongoDB', 'Express', 'Redux', 'JWT'],
       summary:
-        "This app provides you with the latest news on what's happening in the sports world from our bloggers. Sign up for an account, leave comments and view more detail on stories from this blogging app.",
+        "A blogging full-stack app and API to check out today's top sports stories from our writers.",
       src: pubChairSportsImages,
       sourceCode: 'https://github.com/olsenjames1116/blogAPI',
       livePreview: 'https://pubchairsports.onrender.com/',
@@ -61,8 +60,7 @@ const Projects = () => {
     {
       name: 'Shoelace Express',
       technologies: ['Express', 'MongoDB', 'Pug'],
-      summary:
-        'Keep track of all your inventory with this inventory tracking app. Create, read, update and delete items and categories from the database to keep your stock organized and up to date. This project uses shoes to show off its functionality but has the ability to work with any sort of data the user wishes.',
+      summary: 'Server-based app to create, read, update and delete inventory.',
       src: shoelaceExpressImages,
       sourceCode: 'https://github.com/olsenjames1116/inventoryApp',
       livePreview: 'https://shoelaceexpress.onrender.com/',
@@ -71,7 +69,7 @@ const Projects = () => {
       name: 'Grapevine',
       technologies: ['Express', 'MongoDB', 'Pug'],
       summary:
-        "An exclusive club for people who want to say what's on their mind. While anyone with an account can post a message on the home page, only members can view who posted it and when. Join the club with a code word to view who posted a message and on what date. Admins can delete posts but users can only be made an admin through another code word.",
+        'Server-based messaging app with exclusive features for members.',
       src: grapevineImages,
       sourceCode: 'https://github.com/olsenjames1116/membersOnly',
       livePreview: 'https://grapevine-wszg.onrender.com/messages',
