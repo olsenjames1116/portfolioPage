@@ -41,7 +41,7 @@
   transition-property: filter box-shadow;
   transition-duration: 1s;
   animation-name: turnOn, slideInFromTop;
-  animation-duration: 5s, 4s;
+  animation-duration: 1s, 1.5s;
   animation-iteration-count: 1, 1;
 
   &:hover {
@@ -77,9 +77,9 @@
 
 .jobTitle {
   animation-name: slideInFromBottom;
-  animation-duration: 4s;
+  animation-duration: 1.5s;
   animation-iteration-count: 1;
-  animation-delay: 4s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
