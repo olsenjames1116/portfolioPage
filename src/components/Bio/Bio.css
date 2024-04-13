@@ -3,6 +3,7 @@ div.bio {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  text-align: center;
 }
 
 div.bio > img {

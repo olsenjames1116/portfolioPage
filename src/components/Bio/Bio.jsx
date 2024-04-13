@@ -9,13 +9,12 @@ const Bio = () => {
     <Container className="bio">
       <Image alt="Photo of self" src={profileImage} />
       <p>
-        Hello, I&#39;m James. I am a self-taught, motivated developer with a
-        year of experience building web applications. With a background in
-        hospitality and leading Marines, I welcome challenges and enjoy
-        problem-solving, especially as part of a team. Facing each day with a
-        growth mindset, I am willing and able to learn. I hope to one day apply
-        my skills and experience, along with my passion for web development, to
-        the right company.
+        I am a motivated developer with over a year of experience building and
+        deploying web applications. With a background in hospitality and leading
+        Marines, I welcome challenges and enjoy problem-solving, especially as
+        part of a team. Facing each day with a growth mindset and a passion for
+        web development, I am looking to continue evolving in this constantly
+        changing industry.
       </p>
     </Container>
   );
