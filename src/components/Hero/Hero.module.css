@@ -7,9 +7,9 @@
   width: auto;
   height: 100vh;
   background-image: url(../../assets/images/hero.jpg);
-  background-size: cover;
+  background-size: auto 100vh;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: top;
 }
 
 .heroText {
