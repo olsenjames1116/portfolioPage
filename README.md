@@ -21,7 +21,7 @@ Come learn more about me! See some projects and skills I have picked up on my jo
 This project highlights:
 
 - React
-- Responsive design
+- Responsive desig
 - Accessibility
 - React Context
 - Animation and transitions
