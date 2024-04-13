@@ -8,6 +8,7 @@ const ProjectSchema = new Schema({
 	images: [{ type: String, required: true }],
 	sourceCode: { type: String, required: true },
 	livePreview: { type: String, required: true },
+	priority: { type: Number, required: true },
 });
 
 module.exports = model('Project', ProjectSchema);

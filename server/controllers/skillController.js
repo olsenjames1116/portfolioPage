@@ -5,5 +5,13 @@ const asyncHandler = require('express-async-handler');
 exports.getSkills = asyncHandler(async (req, res, next) => {
 	const skills = await Skill.find();
 
-	console.log(skills);
+	const sortedSkills = skills.sort((a, b) => {
+		if (a.name.toUpperCase() < b.name.toUpperCase()) {
+			return -1;
+		} else {
+			return 1;
+		}
+	});
+
+	res.json({ skills: sortedSkills });
 });
