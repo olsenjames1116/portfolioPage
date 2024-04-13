@@ -1,4 +1,4 @@
-import profileImage from './profile.jpg';
+import profileImage from './profile.jpeg';
 import cssImage from './css.svg';
 import emmetImage from './emmet.svg';
 import eslintImage from './eslint.svg';
