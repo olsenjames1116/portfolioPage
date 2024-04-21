@@ -1,5 +1,6 @@
 import profileImage from './profile.jpeg';
 import cssImage from './css.svg';
+import cypressImage from './cypress.svg';
 import emmetImage from './emmet.svg';
 import eslintImage from './eslint.svg';
 import expressImage from './express.png';
@@ -12,7 +13,6 @@ import jestImage from './jest.png';
 import jwtImage from './jwt.png';
 import linuxImage from './linux.png';
 import mongodbImage from './mongodb.png';
-import netlifyImage from './netlify.svg';
 import nodejsImage from './nodejs.svg';
 import npmImage from './npm.svg';
 import prettierImage from './prettier.svg';
@@ -103,6 +103,7 @@ const grapevineImages = [
 export {
   profileImage,
   cssImage,
+  cypressImage,
   emmetImage,
   eslintImage,
   expressImage,
@@ -115,7 +116,6 @@ export {
   jwtImage,
   linuxImage,
   mongodbImage,
-  netlifyImage,
   nodejsImage,
   npmImage,
   prettierImage,
