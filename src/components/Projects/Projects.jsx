@@ -24,7 +24,17 @@ const Projects = () => {
   const projects = [
     {
       name: 'Whisk',
-      technologies: ['TypeScript', 'React', 'Sass', 'MongoDB', 'Express'],
+      technologies: [
+        'TypeScript',
+        'React',
+        'Sass',
+        'MongoDB',
+        'Express',
+        'Jest',
+        'Cypress',
+        'MSW',
+        'Docker',
+      ],
       summary:
         'A recipe, grocery and meal planner full-stack app and API with trying something new in mind.',
       src: whiskImages,
@@ -40,15 +50,6 @@ const Projects = () => {
       livePreview: 'https://hermes-auv3.onrender.com',
     },
     {
-      name: 'FlickChat',
-      technologies: ['React', 'Redux', 'Firebase', 'Router'],
-      summary:
-        "Movie blogging app for users to comment and interact on some of today's top movies.",
-      src: flickChatImages,
-      sourceCode: 'https://github.com/olsenjames1116/social-networking-app',
-      livePreview: 'https://olsenjames1116.github.io/social-networking-app/',
-    },
-    {
       name: 'Pub Chair Sports',
       technologies: ['React', 'MongoDB', 'Express', 'Redux', 'JWT'],
       summary:
@@ -56,6 +57,15 @@ const Projects = () => {
       src: pubChairSportsImages,
       sourceCode: 'https://github.com/olsenjames1116/blogAPI',
       livePreview: 'https://pubchairsports.onrender.com/',
+    },
+    {
+      name: 'FlickChat',
+      technologies: ['React', 'Redux', 'Firebase', 'Router'],
+      summary:
+        "Movie blogging app for users to comment and interact on some of today's top movies.",
+      src: flickChatImages,
+      sourceCode: 'https://github.com/olsenjames1116/social-networking-app',
+      livePreview: 'https://olsenjames1116.github.io/social-networking-app/',
     },
     {
       name: 'Shoelace Express',

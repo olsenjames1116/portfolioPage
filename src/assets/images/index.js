@@ -1,6 +1,7 @@
 import profileImage from './profile.jpeg';
 import cssImage from './css.svg';
 import cypressImage from './cypress.svg';
+import dockerImage from './docker.svg';
 import emmetImage from './emmet.svg';
 import eslintImage from './eslint.svg';
 import expressImage from './express.png';
@@ -13,8 +14,10 @@ import jestImage from './jest.png';
 import jwtImage from './jwt.png';
 import linuxImage from './linux.png';
 import mongodbImage from './mongodb.png';
+import mswImage from './msw.svg';
 import nodejsImage from './nodejs.svg';
 import npmImage from './npm.svg';
+import postgresImage from './postgres.svg';
 import prettierImage from './prettier.svg';
 import pugImage from './pug.png';
 import reactImage from './react.svg';
@@ -22,6 +25,7 @@ import redisImage from './redis.png';
 import reduxImage from './redux.svg';
 import routerImage from './router.svg';
 import sassImage from './sass.png';
+import sqlImage from './sql.png';
 import styledComponentsImage from './styledComponents.png';
 import typescriptImage from './typescript.png';
 import visualStudioCodeImage from './visualStudioCode.svg';
@@ -104,6 +108,7 @@ export {
   profileImage,
   cssImage,
   cypressImage,
+  dockerImage,
   emmetImage,
   eslintImage,
   expressImage,
@@ -116,8 +121,10 @@ export {
   jwtImage,
   linuxImage,
   mongodbImage,
+  mswImage,
   nodejsImage,
   npmImage,
+  postgresImage,
   prettierImage,
   pugImage,
   reactImage,
@@ -125,6 +132,7 @@ export {
   reduxImage,
   routerImage,
   sassImage,
+  sqlImage,
   styledComponentsImage,
   typescriptImage,
   visualStudioCodeImage,

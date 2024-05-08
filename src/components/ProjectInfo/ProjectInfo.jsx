@@ -7,7 +7,7 @@ const ProjectInfo = ({ name, displayFilteredSkills, summary }) => {
   return (
     <Container className={styles.projectInfo}>
       <h3>{name}</h3>
-      <ul>{displayFilteredSkills}</ul>
+      <ul className={styles.list}>{displayFilteredSkills}</ul>
       <p>{summary}</p>
     </Container>
   );

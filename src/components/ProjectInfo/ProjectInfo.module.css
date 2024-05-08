@@ -8,14 +8,13 @@
   margin: 0;
   text-align: center;
 }
-
-.projectInfo > ul {
+.list {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
   justify-content: center;
-  align-items: center;
   gap: 10px;
 
   & > li {
