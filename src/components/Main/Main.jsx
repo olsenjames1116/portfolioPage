@@ -31,6 +31,9 @@ import {
   pugImage,
   sqlImage,
   postgresImage,
+  nestjsImage,
+  bootstrapImage,
+  tailwindCSSImage,
 } from '../../assets/images';
 import SkillsContext from '../../contexts/SkillsContext';
 import About from '../About/About';
@@ -49,9 +52,12 @@ const Main = () => {
     { name: 'SQL', src: sqlImage },
     { name: 'CSS', src: cssImage },
     { name: 'Sass', src: sassImage },
+    { name: 'Bootstrap', src: bootstrapImage },
+    { name: 'TailwindCSS', src: tailwindCSSImage },
     { name: 'React', src: reactImage },
     { name: 'NodeJS', src: nodejsImage },
     { name: 'Express', src: expressImage },
+    { name: 'NestJS', src: nestjsImage },
     { name: 'MongoDB', src: mongodbImage },
     { name: 'Postgres', src: postgresImage },
     { name: 'Docker', src: dockerImage },

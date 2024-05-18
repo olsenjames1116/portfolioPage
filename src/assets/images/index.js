@@ -1,4 +1,5 @@
 import profileImage from './profile.jpeg';
+import bootstrapImage from './bootstrap.svg';
 import cssImage from './css.svg';
 import cypressImage from './cypress.svg';
 import dockerImage from './docker.svg';
@@ -15,6 +16,7 @@ import jwtImage from './jwt.png';
 import linuxImage from './linux.png';
 import mongodbImage from './mongodb.png';
 import mswImage from './msw.svg';
+import nestjsImage from './nestjs.svg';
 import nodejsImage from './nodejs.svg';
 import npmImage from './npm.svg';
 import postgresImage from './postgres.svg';
@@ -27,6 +29,7 @@ import routerImage from './router.svg';
 import sassImage from './sass.png';
 import sqlImage from './sql.png';
 import styledComponentsImage from './styledComponents.png';
+import tailwindCSSImage from './tailwindcss.svg';
 import typescriptImage from './typescript.png';
 import visualStudioCodeImage from './visualStudioCode.svg';
 import viteImage from './vite.svg';
@@ -106,6 +109,7 @@ const grapevineImages = [
 
 export {
   profileImage,
+  bootstrapImage,
   cssImage,
   cypressImage,
   dockerImage,
@@ -122,6 +126,7 @@ export {
   linuxImage,
   mongodbImage,
   mswImage,
+  nestjsImage,
   nodejsImage,
   npmImage,
   postgresImage,
@@ -134,6 +139,7 @@ export {
   sassImage,
   sqlImage,
   styledComponentsImage,
+  tailwindCSSImage,
   typescriptImage,
   visualStudioCodeImage,
   viteImage,
