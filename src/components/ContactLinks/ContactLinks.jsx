@@ -19,7 +19,7 @@ const ContactLinks = () => {
     },
     {
       src: linkedInImage,
-      href: 'https://www.linkedin.com/in/james-olsen-b14898126/',
+      href: 'www.linkedin.com/in/james-olsen',
       openInNewTab: true,
     },
   ];
